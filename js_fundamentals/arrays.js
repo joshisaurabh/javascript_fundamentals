@@ -8,3 +8,13 @@
 
 
 
+var choices = new Array("Red", "Green","Blue");
+for (var i= 0; i< choices.length; i++) {
+	console.log("My #1 choice is "+choices[i]);
+}
+
+
+var choices = new Array("Red", "Green","Blue");
+for (var i= 0; i< choices.length; i++) {
+	console.log("My #"+(i+1)+" choice is "+choices[i]);
+}
