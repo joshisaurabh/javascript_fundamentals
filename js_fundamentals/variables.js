@@ -7,6 +7,12 @@
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
+var numOfChildren = 10;
+var partnerName = "Unknown";
+var geoLocation = "Toronto";
+var jobTitile = "Jack of all Trades";
+
+console.log("You will be a" + jobTitile+ "in" +geoLocation +", and married to"+ partnerName+" with"+numOfChildren+ "kids.");
 // EXERCISE: The Age Calculator
 
 // Forgot how old someone is? Calculate it!
